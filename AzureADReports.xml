@@ -1,0 +1,231 @@
+﻿<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Deserialized.Selected.System.Management.Automation.PSCustomObject</T>
+      <T>Deserialized.System.Management.Automation.PSCustomObject</T>
+      <T>Deserialized.System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">applicationUsageDetailEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">applicationUsageSummaryEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">b2cUserJourneySummaryEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">NoFilter</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">b2cUserJourneyEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">NoFilter</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">cloudAppDiscoveryEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">NoFilter</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">mimSsgmGroupActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ssgmGroupActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="7">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">mimSsprActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ssprActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">mimSsprRegistrationActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ssprRegistrationActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="11">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">threatenedCredentials</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">compromisedCredentials</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="13">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">auditEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">accountProvisioningEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">signInsFromUnknownSourcesEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">timeOfLastSuccessfulSignIn</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">signInsFromIPAddressesWithSuspiciousActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="17">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">signInsFromMultipleGeographiesEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">timeOfSecondSignIn</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">signInsFromPossiblyInfectedDevicesEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">lastSignInTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">irregularSignInActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">allUsersWithAnomalousSignInActivityEvents</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">signInsAfterMultipleFailuresEvents</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">firstSuccessfulSignIn</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">applicationUsageSummary</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">eventTime</S>
+      <S N="ApplicationIDRequired">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="23">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">userActivitySummary</S>
+      <S N="LicenseRequired">False</S>
+      <S N="FilterString">NoFilter</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">groupActivitySummary</S>
+      <S N="LicenseRequired">True</S>
+      <S N="FilterString">NoFilter</S>
+      <S N="ApplicationIDRequired">False</S>
+    </MS>
+  </Obj>
+</Objs>
