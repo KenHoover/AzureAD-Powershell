@@ -2,6 +2,7 @@
 Powershell stuff related to Azure AD (and probably some O365 mixed in)
 
 Run-AzureADReport.ps1 : Uses GRAPH API to retrieve audit data from target AzureAD environment.
+
 by Ken Hoover <ken.hoover@yale.edu> for Yale University
 
 Parameters:
