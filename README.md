@@ -8,12 +8,15 @@ by Ken Hoover <ken.hoover@yale.edu> for Yale University
 Parameters:
 
 [ Required ] ReportName [String] - the name of the report you want.  These are case sensitive!
+
 [ Required ] LookbackInterval [Integer 1-30 ]- how many days back in time you want to look for results (not all reports use this)
+
 [ Optional ] ApplicationID [String] - required for some reports.  Ignored if the selected report doesn't need it.
 
 Output: A list of objects, one object per entry in the returned list of event records.  This can be captured into a variable or piped to downstream cmdlets like convertto-CSV for further processing.
 
  Example: 
+
  Run the "auditEvents" report, looking for records within 10 days of right now.
 
  .\get-AzureADAuditeventsReport.ps1 -ReportName auditEvents -LookbackInterval 10
